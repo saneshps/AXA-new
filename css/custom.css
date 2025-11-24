@@ -46,7 +46,7 @@
 
 :root{
 	--primary-color			: #db180d;
-	--secondary-color		: #f1f1f1;
+	--secondary-color		: #f7f7f7;
 	--text-color			: #8F8F8F;
 	--accent-color			: #db180d;
 	--dark-color		    : #1e222e;
@@ -1261,6 +1261,7 @@ header.main-header .header-sticky.active .container-fluid::before{
 
 .our-potential{
 	padding: 100px 0;
+	background-color: #fff;
 }
 
 .our-potential-content{
@@ -1854,7 +1855,7 @@ header.main-header .header-sticky.active .container-fluid::before{
 
 .our-faqs{
 	padding: 100px 0;
-	background-color: var(--divider-color);
+	background-color: #f7f7f7;
 
 }
 
@@ -2371,7 +2372,7 @@ header.main-header .header-sticky.active .container-fluid::before{
 
 .footer-copyright{
 	border-top: 1px solid var(--dark-divider-color);
-	padding: 40px 0;
+	padding: 18px 0;
 	margin-top: 80px;
 	background-color: #212121;
 }
@@ -2813,6 +2814,7 @@ header.main-header .header-sticky.active .container-fluid::before{
 
 .our-team{
 	padding: 100px 0 70px;
+	background-color: #fff;
 }
 
 .team-member-item{
@@ -2883,7 +2885,7 @@ header.main-header .header-sticky.active .container-fluid::before{
     left: 0;
     right: 0;
     background-color: var(--primary-color);
-	opacity: 10%;
+	opacity: 100%;
     width: 100%;
     height: 100%;
 	z-index: 0;
@@ -2956,7 +2958,7 @@ header.main-header .header-sticky.active .container-fluid::before{
 }
 
 .page-services .service-item{
-    background-color: #f1f1f1;
+    background-color: #f7f7f7;
     border-radius: 20px;
     width: 100%;
     height: calc(100% - 30px);
@@ -4339,19 +4341,14 @@ header.main-header .header-sticky.active .container-fluid::before{
 @media only screen and (max-width: 1800px){
 
 	.bg-section{
-		width: calc(100% - 100px);
-		margin-left: 50px;
-		margin-right: 50px;
-		max-width: 100%;
+		width: 100%;
 	}
 }
 
 @media only screen and (max-width: 1560px){
 
 	.bg-section{
-		width: calc(100% - 30px);
-		margin-left: 15px;
-		margin-right: 15px;
+		width: 100%;
 	}
 
 	header.main-header{
