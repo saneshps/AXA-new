@@ -1211,7 +1211,7 @@ header.main-header .header-sticky.active .container-fluid::before{
 }
 
 .service-item-content h3{
-	font-size: 22px;
+	font-size: 18px;
 	text-transform: capitalize;
 	color: var(--white-color);
 	margin-bottom: 10px;
@@ -2317,6 +2317,14 @@ header.main-header .header-sticky.active .container-fluid::before{
 .footer-contact-info p{
 	color: var(--white-color);
 	margin: 0;
+}
+
+.footer-contact-info p a{
+	color: var(--white-color);
+	transition: all 0.3s ease-in-out;
+}
+.footer-contact-info p a:hover{
+	color: #000;
 }
 
 .footer-contact-info p span{
