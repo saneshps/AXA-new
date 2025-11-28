@@ -1211,8 +1211,7 @@ header.main-header .header-sticky.active .container-fluid::before{
 }
 
 .service-item-content h3{
-	font-size: 18px;
-	text-transform: capitalize;
+	font-size: 18px; 
 	color: var(--white-color);
 	margin-bottom: 10px;
 }
