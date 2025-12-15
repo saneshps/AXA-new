@@ -1903,7 +1903,7 @@ header.main-header .header-sticky.active .container-fluid::before{
 }
 
 .our-faq-section .accordion-header .accordion-button{
-	font-size: 22px;
+	font-size: 17px;
 	font-weight: 700;
 	line-height: 1.2em;
 	background-color: transparent;
@@ -1956,6 +1956,12 @@ header.main-header .header-sticky.active .container-fluid::before{
 .our-faq-section .accordion-item .accordion-body p{
     color: var(--white-color);
 	margin: 0;
+}
+
+.our-faq-section .accordion-item .accordion-body ul li 
+{
+list-style-type: disc;
+color: #fff;
 }
 
 /************************************/
@@ -2519,6 +2525,9 @@ header.main-header .header-sticky.active .container-fluid::before{
 .mission-vision-item{
 	position: relative;
 	margin-bottom: 40px;
+	    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px 20px;
 }
 
 .mission-vision-list .col-md-6:nth-child(odd) .mission-vision-item:after{
