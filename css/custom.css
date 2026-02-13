@@ -3244,8 +3244,7 @@ color: #fff;
 
 .service-entry ul li{
     position: relative;
-    color: #333;
-    text-transform: capitalize;
+    color: #333; 
     padding-left: 30px;
     margin-bottom: 20px;
 }
